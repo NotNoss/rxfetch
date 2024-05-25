@@ -30,20 +30,13 @@ Custom system fetching tool written in bash script.
 If you don't wanna clone this repo or install rxfetch, you can use curl.
 
 ```yaml
-$ curl https://raw.githubusercontent.com/Mangeshrex/rxfetch/main/rxfetch | bash
+$ curl https://raw.githubusercontent.com/NotNoss/rxfetch/main/rxfetch | bash
 ```
 
 ## Installation
 
 ### Arch Linux:
-
-rxfetch is available in the AUR, you can install it with
-
-```yaml
-$ yay -S rxfetch
-```
-
-also, install the fonts too
+install the fonts too
 
 ```yaml
 $ yay -S ttf-material-design-icons
@@ -63,7 +56,7 @@ $ pkg in rxfetch
 
 ```yaml
 # clones the rxfetch repo
-$ git clone https://github.com/mangeshrex/rxfetch
+$ git clone https://github.com/NotNoss/rxfetch
 # cd into rxfetch
 $ cd rxfetch
 # copy the fonts 
@@ -77,7 +70,7 @@ $ ./rxfetch
 > If you have the fonts installed then just run this command.
 
 ```yaml
-$ wget https://raw.githubusercontent.com/Mangeshrex/rxfetch/main/rxfetch && chmod +x rxfetch
+$ wget https://raw.githubusercontent.com/NotNoss/rxfetch/main/rxfetch && chmod +x rxfetch
 ```
 
 - You can also add rxfetch to PATH by placing it in `/usr/local/bin`
@@ -85,13 +78,3 @@ $ wget https://raw.githubusercontent.com/Mangeshrex/rxfetch/main/rxfetch && chmo
 ```yaml
 $ sudo cp rxfetch /usr/local/bin
 ```
-
-- Upload your custom rxfetch script [ here ](https://github.com/Mangeshrex/rxfetch/issues/21)
-
-## Contributors
-
-<a href="https://github.com/Mangeshrex/rxfetch/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Mangeshrex/rxfetch" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
