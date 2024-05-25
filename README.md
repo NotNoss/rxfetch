@@ -7,6 +7,8 @@
 <img src="./screenshots/ss.png">
 </div>
 
+# EDIT LINE 177 IN RXFETCH OR REMOVE IT AND UNCOMMENT LINES 169-175 IF YOU HAVE ANYTHING OUTSIDE OF ARCH
+
 ## About
 
 Custom system fetching tool written in bash script.
