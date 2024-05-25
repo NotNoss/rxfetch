@@ -9,6 +9,9 @@
 
 # EDIT LINE 177 IN RXFETCH OR REMOVE IT AND UNCOMMENT LINES 169-175 IF YOU HAVE ANYTHING OUTSIDE OF ARCH
 
+This is a fork of [rxfetch by Mangeshrex](https://github.com/Mangeshrex/rxfetch)
+with inspiration from [nwvh's version](https://github.com/nwvh/rxfetch-stylish)
+
 ## About
 
 Custom system fetching tool written in bash script.
