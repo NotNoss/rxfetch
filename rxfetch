@@ -251,7 +251,6 @@ if [ "$kernel" = Android ]; then
 	echo -e "               ${c5}phone${c3}  $(getprop ro.product.brand) $(getprop ro.product.model)"
 fi
 
-echo -e "\n\n"
 echo -e " ┏━━━━━━━━━━━━━━━━━━━━━━┓"
 echo -e " ┃ ${c1}rxfetch${c0}      ${c5}${c0}  ${c7}${c0}  ${c6}${c0} ┃		${c1}$(whoami)${c5}@${c1}${c2}$(cat /etc/hostname)"
 echo -e " ┣━━━━━━━━━━━━━━━━━━━━━━┫"
