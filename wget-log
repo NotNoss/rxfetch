@@ -1,0 +1,12 @@
+--2024-06-15 02:07:35--  https://raw.githubusercontent.com/NotNoss/rxfetch/main/uninstall.sh
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8003::154, 2606:50c0:8000::154, 2606:50c0:8001::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8003::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 282 [text/plain]
+Saving to: ‘STDOUT’
+
+-                                                      0%[                                                                                                                      ]       0  --.-KB/s               -                                                    100%[=====================================================================================================================>]     282  --.-KB/s    in 0s      
+
+2024-06-15 02:07:35 (24.1 MB/s) - written to stdout [282/282]
+

@@ -31,16 +31,42 @@ If you don't wanna clone this repo or install rxfetch, you can use curl.
 $ curl https://raw.githubusercontent.com/NotNoss/rxfetch/main/rxfetch | bash
 ```
 
-## Installation
+## Install
 ```bash
 # run the install script
-$
-# cd into rxfetch
-$ cd rxfetch
-# copy the fonts
-$ cp ttf-material-design-icons/* $HOME/.local/share/fonts
-# update fontconfig
-$ fc-cache -fv
-$ run rxfetch
-$ ./rxfetch
+# NOTE: IT IS A BAD IDEA TO BLINDLY RUN SCRIPTS FROM THE INTERNET AS ROOT. I RECOMMEND YOU USE METHOD TWO TO DOWNLOAD AND READ THE SCRIPT PRIOR TO RUNNING. RUN AT YOUR OWN RISK
+$ wget -O - https://raw.githubusercontent.com/NotNoss/rxfetch/main/install.sh | sudo bash
+$ rxfetch
+
+# or
+
+# Download install script
+$ wget -O ./install.sh https://raw.githubusercontent.com/NotNoss/rxfetch/main/install.sh
+# View the file to ensure contents are safe
+$ nano ./install.sh
+# Make the file executable
+$ chmod +x ./install.sh
+# Run script
+$ sudo ./install.sh
+$ rxfetch
+```
+
+## Uninstall
+```bash
+# run the uninstall script
+# NOTE: IT IS A BAD IDEA TO BLINDLY RUN SCRIPTS FROM THE INTERNET AS ROOT. I RECOMMEND YOU USE METHOD TWO TO DOWNLOAD AND READ THE SCRIPT PRIOR TO RUNNING. RUN AT YOUR OWN RISK
+$ wget -O - https://raw.githubusercontent.com/NotNoss/rxfetch/main/uninstall.sh | sudo bash
+$ rxfetch
+
+# or
+
+# Download install script
+$ wget -O ./install.sh https://raw.githubusercontent.com/NotNoss/rxfetch/main/uninstall.sh
+# View the file to ensure contents are safe
+$ nano ./uninstall.sh
+# Make the file executable
+$ chmod +x ./uninstall.sh
+# Run script
+$ sudo ./uninstall.sh
+$ rxfetch
 ```
