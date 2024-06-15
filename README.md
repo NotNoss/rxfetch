@@ -64,7 +64,7 @@ $ rxfetch
 
 # or
 
-# Download install script
+# Download uninstall script
 $ wget -O ./install.sh https://raw.githubusercontent.com/NotNoss/rxfetch/main/uninstall.sh
 # View the file to ensure contents are safe
 $ nano ./uninstall.sh
