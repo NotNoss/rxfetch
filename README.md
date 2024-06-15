@@ -7,8 +7,6 @@
 <img src="./screenshots/ss.png">
 </div>
 
-# EDIT LINE 177 IN RXFETCH OR REMOVE IT AND UNCOMMENT LINES 169-175 IF YOU HAVE ANYTHING OUTSIDE OF ARCH
-
 This is a fork of [rxfetch by Mangeshrex](https://github.com/Mangeshrex/rxfetch)
 with inspiration from [nwvh's version](https://github.com/nwvh/rxfetch-stylish)
 
@@ -34,47 +32,15 @@ $ curl https://raw.githubusercontent.com/NotNoss/rxfetch/main/rxfetch | bash
 ```
 
 ## Installation
-
-### Arch Linux:
-install the fonts too
-
-```yaml
-$ yay -S ttf-material-design-icons
-```
-
-### Termux (Android):
-
-Included in main repository, install with:
-
-```yaml
-$ pkg in rxfetch
-```
-
-### Manual:
-
-- Clone this repository & run rxfetch.
-
-```yaml
-# clones the rxfetch repo
-$ git clone https://github.com/NotNoss/rxfetch
+```bash
+# run the install script
+$
 # cd into rxfetch
 $ cd rxfetch
-# copy the fonts 
+# copy the fonts
 $ cp ttf-material-design-icons/* $HOME/.local/share/fonts
 # update fontconfig
 $ fc-cache -fv
 $ run rxfetch
 $ ./rxfetch
-```
-
-> If you have the fonts installed then just run this command.
-
-```yaml
-$ wget https://raw.githubusercontent.com/NotNoss/rxfetch/main/rxfetch && chmod +x rxfetch
-```
-
-- You can also add rxfetch to PATH by placing it in `/usr/local/bin`
-
-```yaml
-$ sudo cp rxfetch /usr/local/bin
 ```
