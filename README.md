@@ -32,7 +32,7 @@ $ curl https://raw.githubusercontent.com/NotNoss/rxfetch/main/rxfetch | bash
 ```
 
 ## Install
-```bash
+```yaml
 # run the install script
 # NOTE: IT IS A BAD IDEA TO BLINDLY RUN SCRIPTS FROM THE INTERNET AS ROOT.
 # I RECOMMEND YOU USE METHOD TWO TO DOWNLOAD AND READ THE SCRIPT PRIOR TO RUNNING.
@@ -54,7 +54,7 @@ $ rxfetch
 ```
 
 ## Uninstall
-```bash
+```yaml
 # run the uninstall script
 # NOTE: IT IS A BAD IDEA TO BLINDLY RUN SCRIPTS FROM THE INTERNET AS ROOT.
 # I RECOMMEND YOU USE METHOD TWO TO DOWNLOAD AND READ THE SCRIPT PRIOR TO RUNNING.
